@@ -11,6 +11,15 @@ The Student Management System is a program designed to manage student informatio
 
 The project aims to streamline the process of managing student information, enhancing efficiency and organization for educational institutions or individuals responsible for student management.
 
+## Commands
+- **Press 1:** Enter data
+- **Press 2:** Show data
+- **Press 3:** Search data
+- **Press 4:** Update data
+- **Press 5:** Delete data
+- **Press 6:** Take attendance
+- **Press 7:** Save data to file
+- **Press 8:** Exit
 
 
 
