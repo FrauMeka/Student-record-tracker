@@ -20,8 +20,8 @@ The project aims to streamline the process of managing student information, enha
 - **Press 6:** Take attendance
 - **Press 7:** Save data to file
 - **Press 8:** Exit
-
-
+## Presentation 
+https://www.canva.com/design/DAGFXlDRv8U/4mCFilCMy9BvCzJb2QFjKg/view?utm_content=DAGFXlDRv8U&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 
 
