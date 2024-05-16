@@ -1,0 +1,117 @@
+Input:
+Press 1 to enter data
+Press 2 to show data
+Press 3 to search data
+Press 4 to update data
+Press 5 to delete data
+Press 6 to take attendance
+Press 7 to save data to file
+Press 8 to exit
+1
+How many students do you want to enter?
+3
+
+Enter the Data of student 1
+
+Name: Meerim
+Student ID: 230141002
+Department: IT
+Group: COMCEH-23
+Contact: 099900022
+Math: 67
+Physics: 78
+Discrete math: 90
+Programming: 76
+Calculus: 99
+Output:
+GPA: 82
+Input:
+Enter the Data of student 2
+
+Name: Aidai
+Student ID: 230444004
+Department: IT
+Group: COMSE-23
+Contact: 050044433
+Math: 79
+Physics: 99
+Discrete math: 67
+Programming: 90
+Calculus: 78
+Output:
+GPA: 82.6
+Input:
+Enter the Data of student 3
+
+Name: Marlen
+Student ID: 230949009
+Department: IT
+Group: COMFCI-23
+Contact: 0222008889
+Math: 56
+Physics: 90
+Discrete math: 90
+Programming: 77
+Calculus: 66
+Output:
+GPA: 75.8
+Input:
+Press 1 to enter data
+Press 2 to show data
+Press 3 to search data
+Press 4 to update data
+Press 5 to delete data
+Press 6 to take attendance
+Press 7 to save data to file
+Press 8 to exit
+6
+Enter the Student ID of student for attendance: 230141002
+Is the student present? (p for present, o for absent): p
+Output:
+Attendance marked as Present
+Input:
+Press 1 to enter data
+Press 2 to show data
+Press 3 to search data
+Press 4 to update data
+Press 5 to delete data
+Press 6 to take attendance
+Press 7 to save data to file
+Press 8 to exit
+2
+output:
+All Students
+
+============================================================================================================
+Name    Student ID      Department      Croup           Contact         GPA     Attendance
+============================================================================================================
+Meerim  230141002       IT      COMCEH-23       099900022       82.000000       Present
+Aidai   230444004       IT      COMSE-23        050044433       82.600000       Absent
+Marlen  230949009       IT      COMFCI-23       0222008889      75.800000       Present
+Input:
+Press 1 to enter data
+Press 2 to show data
+Press 3 to search data
+Press 4 to update data
+Press 5 to delete data
+Press 6 to take attendance
+Press 7 to save data to file
+Press 8 to exit
+4
+Enter the Student ID of student you want to update: 230949009
+Output:
+Previous data:
+Data of Student 3
+Name: Marlen
+Student ID: 230949009
+Department: IT
+Group: COMFCI-23
+Contact: 0222008889
+GPA: 75.800000
+Input:
+Enter new data:
+Name: Aman
+Student ID: 230646006
+Department: IT
+Group: COMSEP-23
+Contact: 0999023233
