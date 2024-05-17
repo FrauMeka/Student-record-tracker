@@ -1,0 +1,50 @@
+Student Management System Documentation: How to Use
+This documentation provides a step-by-step guide on how to use the Student Management System code.
+
+ Main Menu:
+Upon running the program, you will see the main menu with various options:
+Copy code
+Press 1 to enter data
+Press 2 to show data
+Press 3 to search data
+Press 4 to update data
+Press 5 to delete data
+Press 6 to take attendance
+Press 7 to save data to filee
+Press 8 to exit 
+
+Performing Actions:
+Follow the instructions on the main menu to perform different actions:
+
+Enter Data (Option 1): Enter information for new students.
+Show Data (Option 2): Display all student records.
+Search Data (Option 3): Search for a specific student by Student ID.
+Update Data (Option 4): Update information for an existing student.
+Delete Data (Option 5): Delete a student record by Student ID.
+Take Attendance (Option 6): Mark attendance for students.
+Save Data to File (Option 7): Save all student data to a file.
+Exit (Option 8): Terminate the program.
+
+Input Instructions:
+Follow the prompts to enter data, search for students, update information, etc.
+Provide input as per the instructions displayed on the screen.
+Input formats and data types are specified in the prompts.
+
+6. Output Display:
+The program will display various outputs based on the actions performed.
+Output includes student data, success messages, error messages, etc.
+Data is displayed in a structured format for easy understanding.
+
+7. File Operations:
+Use options 8 to save student data to a file.
+Follow the prompts to provide file names and perform file operations.
+8. Exiting the Program:
+To exit the program, select option 9 from the main menu.
+The program will terminate gracefully.
+Screenshots:
+For visual guidance on using the program, refer to the screenshots provided in the separate documentation
+Troubleshooting:
+Ensure all inputs are provided in the correct format as specified by the prompts.
+Check for any error messages displayed by the program and follow the instructions provided.
+If you encounter any issues, refer to the troubleshooting section in the main documentation or seek assistance from the developer.
+This guide should help you effectively use the Student Management System code to manage student information efficiently. If you encounter any difficulties or have questions, feel free to refer to the provided documentation or contact the developer for assistance.
