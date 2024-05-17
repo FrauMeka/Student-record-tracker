@@ -1,117 +1,101 @@
-Input:
-Press 1 to enter data
-Press 2 to show data
-Press 3 to search data
-Press 4 to update data
-Press 5 to delete data
-Press 6 to take attendance
-Press 7 to save data to file
-Press 8 to exit
-1
-How many students do you want to enter?
-3
+Example Input and Expected Output for Student Management System:
 
-Enter the Data of student 1
+1. Entering Data:
+Input:
+- Enter the number of students you want to enter: 3
+- Student 1:
+  Name: John Doe
+  Student ID: 12345
+  Department: CS
+  Group: A
+  Contact: 555-1234
+  Math: 90
+  Physics: 85
+  Discrete math: 87
+  Programming: 92
+  Calculus: 88
+- Student 2:
+  Name: Jane Smith
+  Student ID: 12346
+  Department: IT
+  Group: B
+  Contact: 555-5678
+  Math: 85
+  Physics: 88
+  Discrete math: 90
+  Programming: 85
+  Calculus: 80
+- Student 3:
+  Name: Alice Johnson
+  Student ID: 12347
+  Department: CS
+  Group: A
+  Contact: 555-8765
+  Math: 92
+  Physics: 90
+  Discrete math: 85
+  Programming: 95
+  Calculus: 90
 
-Name: Meerim
-Student ID: 230141002
-Department: IT
-Group: COMCEH-23
-Contact: 099900022
-Math: 67
-Physics: 78
-Discrete math: 90
-Programming: 76
-Calculus: 99
-Output:
-GPA: 82
-Input:
-Enter the Data of student 2
+Expected Output:
+- The system should display the entered student data.
 
-Name: Aidai
-Student ID: 230444004
-Department: IT
-Group: COMSE-23
-Contact: 050044433
-Math: 79
-Physics: 99
-Discrete math: 67
-Programming: 90
-Calculus: 78
-Output:
-GPA: 82.6
+2. Showing Data:
 Input:
-Enter the Data of student 3
+- Show all student data.
 
-Name: Marlen
-Student ID: 230949009
-Department: IT
-Group: COMFCI-23
-Contact: 0222008889
-Math: 56
-Physics: 90
-Discrete math: 90
-Programming: 77
-Calculus: 66
-Output:
-GPA: 75.8
-Input:
-Press 1 to enter data
-Press 2 to show data
-Press 3 to search data
-Press 4 to update data
-Press 5 to delete data
-Press 6 to take attendance
-Press 7 to save data to file
-Press 8 to exit
-6
-Enter the Student ID of student for attendance: 230141002
-Is the student present? (p for present, o for absent): p
-Output:
-Attendance marked as Present
-Input:
-Press 1 to enter data
-Press 2 to show data
-Press 3 to search data
-Press 4 to update data
-Press 5 to delete data
-Press 6 to take attendance
-Press 7 to save data to file
-Press 8 to exit
-2
-output:
-All Students
+Expected Output:
+- The system should display all entered student data in a tabular format.
 
-============================================================================================================
-Name    Student ID      Department      Croup           Contact         GPA     Attendance
-============================================================================================================
-Meerim  230141002       IT      COMCEH-23       099900022       82.000000       Present
-Aidai   230444004       IT      COMSE-23        050044433       82.600000       Absent
-Marlen  230949009       IT      COMFCI-23       0222008889      75.800000       Present
+3. Searching Data:
 Input:
-Press 1 to enter data
-Press 2 to show data
-Press 3 to search data
-Press 4 to update data
-Press 5 to delete data
-Press 6 to take attendance
-Press 7 to save data to file
-Press 8 to exit
-4
-Enter the Student ID of student you want to update: 230949009
-Output:
-Previous data:
-Data of Student 3
-Name: Marlen
-Student ID: 230949009
-Department: IT
-Group: COMFCI-23
-Contact: 0222008889
-GPA: 75.800000
+- Search for student by Student ID: 12346
+
+Expected Output:
+- The system should display the details of the student with Student ID 12346.
+
+4. Updating Data:
 Input:
-Enter new data:
-Name: Aman
-Student ID: 230646006
-Department: IT
-Group: COMSEP-23
-Contact: 0999023233
+- Update data for student with Student ID: 12345
+  New Name: John Smith
+  New Department: EE
+
+Expected Output:
+- The system should update the data for the student with Student ID 12345.
+
+5. Deleting Data:
+Input:
+- Delete student data by Student ID: 12347
+
+Expected Output:
+- The system should delete the data for the student with Student ID 12347.
+
+6. Taking Attendance:
+Input:
+- Mark attendance for student with Student ID: 12346
+  Attendance status: Present
+
+Expected Output:
+- The system should mark the attendance of the student with Student ID 12346 as "Present".
+
+7. Saving Data to File:
+Input:
+- Save all student data to a file.
+
+Expected Output:
+- The system should save all student data to a file named "student_data.txt".
+
+8. Loading Data from File:
+Input:
+- Load student data from file.
+
+Expected Output:
+- The system should load student data from the file "student_data.txt" and display it.
+
+9. Exiting the Program:
+Input:
+- Exit the program.
+
+Expected Output:
+- The program should terminate gracefully.
+
